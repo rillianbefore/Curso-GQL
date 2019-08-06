@@ -13,6 +13,15 @@ const usuarios = [{
     idade: 31
 }
 ]
+
+const perfis = [{
+    id: 1,
+    nome: 'Comum'
+},{
+    id: 2,
+    nome: 'Administrador'
+}
+]
 const typeDefs = gql`
     # As vezes é necessário retornar um tipo de dado que não faz parte dos 5 tipos basico do graphQl(Int, Float, Boolean, String, ID)
     # Nesse caso é possivel criar um scalar. Que nada mais é que um tipo definido pelo usuario
@@ -35,6 +44,11 @@ const typeDefs = gql`
         precoComDesconto: Float       
     }
 
+    type Perfil{
+        id: Int
+        nome: String
+    }
+
     # Pontos de entrada da API
     type Query{
         ola: String!
@@ -46,6 +60,9 @@ const typeDefs = gql`
 
         # passando parametros
         usuario(id: ID): Usuario  #consulta que recebe um parametro ID e retorna um objeto usuario
+
+        perfis: [Perfil]
+        perfil(id: Int): Perfil
     }
 `
 
@@ -108,6 +125,13 @@ const resolvers = {
         },
         usuario(_,{id}){
             const sels = usuarios.filter(u => u.id == id)
+            return sels ? sels[0] : null
+        },
+        perfis(){
+            return perfis
+        },
+        perfil(_,{id}){
+            const sels = perfis.filter(p => p.id === id)
             return sels ? sels[0] : null
         }
     }
