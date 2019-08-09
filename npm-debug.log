@@ -1,0 +1,564 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/rillian/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune rillian
+21 silly idealTree:prePrune ├── @babel/polyfill@7.4.4
+21 silly idealTree:prePrune ├── @types/bluebird@3.5.27
+21 silly idealTree:prePrune ├── arr-diff@4.0.0
+21 silly idealTree:prePrune ├── arr-flatten@1.1.0
+21 silly idealTree:prePrune ├── arr-union@3.1.0
+21 silly idealTree:prePrune ├── array-each@1.0.1
+21 silly idealTree:prePrune ├── array-slice@1.1.0
+21 silly idealTree:prePrune ├── array-unique@0.3.2
+21 silly idealTree:prePrune ├── assign-symbols@1.0.0
+21 silly idealTree:prePrune ├── atob@2.1.2
+21 silly idealTree:prePrune ├─┬ base@0.11.2
+21 silly idealTree:prePrune │ ├── define-property@1.0.0
+21 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+21 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+21 silly idealTree:prePrune │ └── is-descriptor@1.0.2
+21 silly idealTree:prePrune ├── bluebird@3.5.5
+21 silly idealTree:prePrune ├─┬ braces@2.3.2
+21 silly idealTree:prePrune │ └── extend-shallow@2.0.1
+21 silly idealTree:prePrune ├── cache-base@1.0.1
+21 silly idealTree:prePrune ├─┬ class-utils@0.3.6
+21 silly idealTree:prePrune │ └── define-property@0.2.5
+21 silly idealTree:prePrune ├── collection-visit@1.0.0
+21 silly idealTree:prePrune ├── colorette@1.0.7
+21 silly idealTree:prePrune ├── commander@2.20.0
+21 silly idealTree:prePrune ├── component-emitter@1.3.0
+21 silly idealTree:prePrune ├── copy-descriptor@0.1.1
+21 silly idealTree:prePrune ├── core-js@2.6.9
+21 silly idealTree:prePrune ├── debug@4.1.1
+21 silly idealTree:prePrune ├── decode-uri-component@0.2.0
+21 silly idealTree:prePrune ├─┬ define-property@2.0.2
+21 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+21 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+21 silly idealTree:prePrune │ └── is-descriptor@1.0.2
+21 silly idealTree:prePrune ├── detect-file@1.0.0
+21 silly idealTree:prePrune ├─┬ expand-brackets@2.1.4
+21 silly idealTree:prePrune │ ├── debug@2.6.9
+21 silly idealTree:prePrune │ ├── define-property@0.2.5
+21 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+21 silly idealTree:prePrune │ └── ms@2.0.0
+21 silly idealTree:prePrune ├── expand-tilde@2.0.2
+21 silly idealTree:prePrune ├─┬ extend-shallow@3.0.2
+21 silly idealTree:prePrune │ └── is-extendable@1.0.1
+21 silly idealTree:prePrune ├── extend@3.0.2
+21 silly idealTree:prePrune ├─┬ extglob@2.0.4
+21 silly idealTree:prePrune │ ├── define-property@1.0.0
+21 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+21 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+21 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+21 silly idealTree:prePrune │ └── is-descriptor@1.0.2
+21 silly idealTree:prePrune ├─┬ fill-range@4.0.0
+21 silly idealTree:prePrune │ └── extend-shallow@2.0.1
+21 silly idealTree:prePrune ├── findup-sync@3.0.0
+21 silly idealTree:prePrune ├── fined@1.2.0
+21 silly idealTree:prePrune ├── flagged-respawn@1.0.1
+21 silly idealTree:prePrune ├── for-in@1.0.2
+21 silly idealTree:prePrune ├── for-own@1.0.0
+21 silly idealTree:prePrune ├── fragment-cache@0.2.1
+21 silly idealTree:prePrune ├── get-value@2.0.6
+21 silly idealTree:prePrune ├── getopts@2.2.3
+21 silly idealTree:prePrune ├── global-modules@1.0.0
+21 silly idealTree:prePrune ├── global-prefix@1.0.2
+21 silly idealTree:prePrune ├── graphql-import@0.7.1
+21 silly idealTree:prePrune ├── has-value@1.0.0
+21 silly idealTree:prePrune ├─┬ has-values@1.0.0
+21 silly idealTree:prePrune │ └── kind-of@4.0.0
+21 silly idealTree:prePrune ├── homedir-polyfill@1.0.3
+21 silly idealTree:prePrune ├── inherits@2.0.3
+21 silly idealTree:prePrune ├── ini@1.3.5
+21 silly idealTree:prePrune ├── interpret@1.2.0
+21 silly idealTree:prePrune ├── is-absolute@1.0.0
+21 silly idealTree:prePrune ├─┬ is-accessor-descriptor@0.1.6
+21 silly idealTree:prePrune │ └── kind-of@3.2.2
+21 silly idealTree:prePrune ├── is-buffer@1.1.6
+21 silly idealTree:prePrune ├─┬ is-data-descriptor@0.1.4
+21 silly idealTree:prePrune │ └── kind-of@3.2.2
+21 silly idealTree:prePrune ├─┬ is-descriptor@0.1.6
+21 silly idealTree:prePrune │ └── kind-of@5.1.0
+21 silly idealTree:prePrune ├── is-extendable@0.1.1
+21 silly idealTree:prePrune ├── is-extglob@2.1.1
+21 silly idealTree:prePrune ├── is-glob@4.0.1
+21 silly idealTree:prePrune ├─┬ is-number@3.0.0
+21 silly idealTree:prePrune │ └── kind-of@3.2.2
+21 silly idealTree:prePrune ├── is-plain-object@2.0.4
+21 silly idealTree:prePrune ├── is-relative@1.0.0
+21 silly idealTree:prePrune ├── is-unc-path@1.0.0
+21 silly idealTree:prePrune ├── is-windows@1.0.2
+21 silly idealTree:prePrune ├── isarray@1.0.0
+21 silly idealTree:prePrune ├── isexe@2.0.0
+21 silly idealTree:prePrune ├── isobject@3.0.1
+21 silly idealTree:prePrune ├── kind-of@6.0.2
+21 silly idealTree:prePrune ├── knex@0.17.0
+21 silly idealTree:prePrune ├── liftoff@3.1.0
+21 silly idealTree:prePrune ├── lodash@4.17.11
+21 silly idealTree:prePrune ├── make-iterator@1.0.1
+21 silly idealTree:prePrune ├── map-cache@0.2.2
+21 silly idealTree:prePrune ├── map-visit@1.0.0
+21 silly idealTree:prePrune ├── micromatch@3.1.10
+21 silly idealTree:prePrune ├── minimist@0.0.8
+21 silly idealTree:prePrune ├─┬ mixin-deep@1.3.1
+21 silly idealTree:prePrune │ └── is-extendable@1.0.1
+21 silly idealTree:prePrune ├── mkdirp@0.5.1
+21 silly idealTree:prePrune ├── ms@2.1.1
+21 silly idealTree:prePrune ├── nanomatch@1.2.13
+21 silly idealTree:prePrune ├─┬ object-copy@0.1.0
+21 silly idealTree:prePrune │ ├── define-property@0.2.5
+21 silly idealTree:prePrune │ └── kind-of@3.2.2
+21 silly idealTree:prePrune ├── object-visit@1.0.1
+21 silly idealTree:prePrune ├── object.defaults@1.1.0
+21 silly idealTree:prePrune ├── object.map@1.0.1
+21 silly idealTree:prePrune ├── object.pick@1.3.0
+21 silly idealTree:prePrune ├── os-homedir@1.0.2
+21 silly idealTree:prePrune ├── parse-filepath@1.0.2
+21 silly idealTree:prePrune ├── parse-passwd@1.0.0
+21 silly idealTree:prePrune ├── pascalcase@0.1.1
+21 silly idealTree:prePrune ├── path-parse@1.0.6
+21 silly idealTree:prePrune ├── path-root-regex@0.1.2
+21 silly idealTree:prePrune ├── path-root@0.1.1
+21 silly idealTree:prePrune ├── pg-connection-string@2.0.0
+21 silly idealTree:prePrune ├── posix-character-classes@0.1.1
+21 silly idealTree:prePrune ├── rechoir@0.6.2
+21 silly idealTree:prePrune ├── regenerator-runtime@0.13.2
+21 silly idealTree:prePrune ├── regex-not@1.0.2
+21 silly idealTree:prePrune ├── repeat-element@1.1.3
+21 silly idealTree:prePrune ├── repeat-string@1.6.1
+21 silly idealTree:prePrune ├── resolve-dir@1.0.1
+21 silly idealTree:prePrune ├── resolve-from@4.0.0
+21 silly idealTree:prePrune ├── resolve-url@0.2.1
+21 silly idealTree:prePrune ├── resolve@1.11.0
+21 silly idealTree:prePrune ├── ret@0.1.15
+21 silly idealTree:prePrune ├── safe-regex@1.1.0
+21 silly idealTree:prePrune ├─┬ set-value@2.0.0
+21 silly idealTree:prePrune │ └── extend-shallow@2.0.1
+21 silly idealTree:prePrune ├─┬ snapdragon-node@2.1.1
+21 silly idealTree:prePrune │ ├── define-property@1.0.0
+21 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+21 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+21 silly idealTree:prePrune │ └── is-descriptor@1.0.2
+21 silly idealTree:prePrune ├─┬ snapdragon-util@3.0.1
+21 silly idealTree:prePrune │ └── kind-of@3.2.2
+21 silly idealTree:prePrune ├─┬ snapdragon@0.8.2
+21 silly idealTree:prePrune │ ├── debug@2.6.9
+21 silly idealTree:prePrune │ ├── define-property@0.2.5
+21 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+21 silly idealTree:prePrune │ └── ms@2.0.0
+21 silly idealTree:prePrune ├── source-map-resolve@0.5.2
+21 silly idealTree:prePrune ├── source-map-url@0.4.0
+21 silly idealTree:prePrune ├── source-map@0.5.7
+21 silly idealTree:prePrune ├── split-string@3.1.0
+21 silly idealTree:prePrune ├─┬ static-extend@0.1.2
+21 silly idealTree:prePrune │ └── define-property@0.2.5
+21 silly idealTree:prePrune ├── tarn@1.1.5
+21 silly idealTree:prePrune ├── tildify@1.2.0
+21 silly idealTree:prePrune ├─┬ to-object-path@0.3.0
+21 silly idealTree:prePrune │ └── kind-of@3.2.2
+21 silly idealTree:prePrune ├── to-regex-range@2.1.1
+21 silly idealTree:prePrune ├── to-regex@3.0.2
+21 silly idealTree:prePrune ├── unc-path-regex@0.1.2
+21 silly idealTree:prePrune ├─┬ union-value@1.0.0
+21 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+21 silly idealTree:prePrune │ └── set-value@0.4.3
+21 silly idealTree:prePrune ├─┬ unset-value@1.0.0
+21 silly idealTree:prePrune │ ├─┬ has-value@0.3.1
+21 silly idealTree:prePrune │ │ └── isobject@2.1.0
+21 silly idealTree:prePrune │ └── has-values@0.1.4
+21 silly idealTree:prePrune ├── urix@0.1.0
+21 silly idealTree:prePrune ├── use@3.1.1
+21 silly idealTree:prePrune ├── uuid@3.3.2
+21 silly idealTree:prePrune ├── v8flags@3.1.3
+21 silly idealTree:prePrune └── which@1.3.1
+22 silly loadIdealTree Finishing
+23 silly currentTree rillian
+23 silly currentTree ├── @babel/polyfill@7.4.4
+23 silly currentTree ├── @types/bluebird@3.5.27
+23 silly currentTree ├── arr-diff@4.0.0
+23 silly currentTree ├── arr-flatten@1.1.0
+23 silly currentTree ├── arr-union@3.1.0
+23 silly currentTree ├── array-each@1.0.1
+23 silly currentTree ├── array-slice@1.1.0
+23 silly currentTree ├── array-unique@0.3.2
+23 silly currentTree ├── assign-symbols@1.0.0
+23 silly currentTree ├── atob@2.1.2
+23 silly currentTree ├─┬ base@0.11.2
+23 silly currentTree │ ├── define-property@1.0.0
+23 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+23 silly currentTree │ ├── is-data-descriptor@1.0.0
+23 silly currentTree │ └── is-descriptor@1.0.2
+23 silly currentTree ├── bluebird@3.5.5
+23 silly currentTree ├─┬ braces@2.3.2
+23 silly currentTree │ └── extend-shallow@2.0.1
+23 silly currentTree ├── cache-base@1.0.1
+23 silly currentTree ├─┬ class-utils@0.3.6
+23 silly currentTree │ └── define-property@0.2.5
+23 silly currentTree ├── collection-visit@1.0.0
+23 silly currentTree ├── colorette@1.0.7
+23 silly currentTree ├── commander@2.20.0
+23 silly currentTree ├── component-emitter@1.3.0
+23 silly currentTree ├── copy-descriptor@0.1.1
+23 silly currentTree ├── core-js@2.6.9
+23 silly currentTree ├── debug@4.1.1
+23 silly currentTree ├── decode-uri-component@0.2.0
+23 silly currentTree ├─┬ define-property@2.0.2
+23 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+23 silly currentTree │ ├── is-data-descriptor@1.0.0
+23 silly currentTree │ └── is-descriptor@1.0.2
+23 silly currentTree ├── detect-file@1.0.0
+23 silly currentTree ├─┬ expand-brackets@2.1.4
+23 silly currentTree │ ├── debug@2.6.9
+23 silly currentTree │ ├── define-property@0.2.5
+23 silly currentTree │ ├── extend-shallow@2.0.1
+23 silly currentTree │ └── ms@2.0.0
+23 silly currentTree ├── expand-tilde@2.0.2
+23 silly currentTree ├─┬ extend-shallow@3.0.2
+23 silly currentTree │ └── is-extendable@1.0.1
+23 silly currentTree ├── extend@3.0.2
+23 silly currentTree ├─┬ extglob@2.0.4
+23 silly currentTree │ ├── define-property@1.0.0
+23 silly currentTree │ ├── extend-shallow@2.0.1
+23 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+23 silly currentTree │ ├── is-data-descriptor@1.0.0
+23 silly currentTree │ └── is-descriptor@1.0.2
+23 silly currentTree ├─┬ fill-range@4.0.0
+23 silly currentTree │ └── extend-shallow@2.0.1
+23 silly currentTree ├── findup-sync@3.0.0
+23 silly currentTree ├── fined@1.2.0
+23 silly currentTree ├── flagged-respawn@1.0.1
+23 silly currentTree ├── for-in@1.0.2
+23 silly currentTree ├── for-own@1.0.0
+23 silly currentTree ├── fragment-cache@0.2.1
+23 silly currentTree ├── get-value@2.0.6
+23 silly currentTree ├── getopts@2.2.3
+23 silly currentTree ├── global-modules@1.0.0
+23 silly currentTree ├── global-prefix@1.0.2
+23 silly currentTree ├── graphql-import@0.7.1
+23 silly currentTree ├── has-value@1.0.0
+23 silly currentTree ├─┬ has-values@1.0.0
+23 silly currentTree │ └── kind-of@4.0.0
+23 silly currentTree ├── homedir-polyfill@1.0.3
+23 silly currentTree ├── inherits@2.0.3
+23 silly currentTree ├── ini@1.3.5
+23 silly currentTree ├── interpret@1.2.0
+23 silly currentTree ├── is-absolute@1.0.0
+23 silly currentTree ├─┬ is-accessor-descriptor@0.1.6
+23 silly currentTree │ └── kind-of@3.2.2
+23 silly currentTree ├── is-buffer@1.1.6
+23 silly currentTree ├─┬ is-data-descriptor@0.1.4
+23 silly currentTree │ └── kind-of@3.2.2
+23 silly currentTree ├─┬ is-descriptor@0.1.6
+23 silly currentTree │ └── kind-of@5.1.0
+23 silly currentTree ├── is-extendable@0.1.1
+23 silly currentTree ├── is-extglob@2.1.1
+23 silly currentTree ├── is-glob@4.0.1
+23 silly currentTree ├─┬ is-number@3.0.0
+23 silly currentTree │ └── kind-of@3.2.2
+23 silly currentTree ├── is-plain-object@2.0.4
+23 silly currentTree ├── is-relative@1.0.0
+23 silly currentTree ├── is-unc-path@1.0.0
+23 silly currentTree ├── is-windows@1.0.2
+23 silly currentTree ├── isarray@1.0.0
+23 silly currentTree ├── isexe@2.0.0
+23 silly currentTree ├── isobject@3.0.1
+23 silly currentTree ├── kind-of@6.0.2
+23 silly currentTree ├── knex@0.17.0
+23 silly currentTree ├── liftoff@3.1.0
+23 silly currentTree ├── lodash@4.17.11
+23 silly currentTree ├── make-iterator@1.0.1
+23 silly currentTree ├── map-cache@0.2.2
+23 silly currentTree ├── map-visit@1.0.0
+23 silly currentTree ├── micromatch@3.1.10
+23 silly currentTree ├── minimist@0.0.8
+23 silly currentTree ├─┬ mixin-deep@1.3.1
+23 silly currentTree │ └── is-extendable@1.0.1
+23 silly currentTree ├── mkdirp@0.5.1
+23 silly currentTree ├── ms@2.1.1
+23 silly currentTree ├── nanomatch@1.2.13
+23 silly currentTree ├─┬ object-copy@0.1.0
+23 silly currentTree │ ├── define-property@0.2.5
+23 silly currentTree │ └── kind-of@3.2.2
+23 silly currentTree ├── object-visit@1.0.1
+23 silly currentTree ├── object.defaults@1.1.0
+23 silly currentTree ├── object.map@1.0.1
+23 silly currentTree ├── object.pick@1.3.0
+23 silly currentTree ├── os-homedir@1.0.2
+23 silly currentTree ├── parse-filepath@1.0.2
+23 silly currentTree ├── parse-passwd@1.0.0
+23 silly currentTree ├── pascalcase@0.1.1
+23 silly currentTree ├── path-parse@1.0.6
+23 silly currentTree ├── path-root-regex@0.1.2
+23 silly currentTree ├── path-root@0.1.1
+23 silly currentTree ├── pg-connection-string@2.0.0
+23 silly currentTree ├── posix-character-classes@0.1.1
+23 silly currentTree ├── rechoir@0.6.2
+23 silly currentTree ├── regenerator-runtime@0.13.2
+23 silly currentTree ├── regex-not@1.0.2
+23 silly currentTree ├── repeat-element@1.1.3
+23 silly currentTree ├── repeat-string@1.6.1
+23 silly currentTree ├── resolve-dir@1.0.1
+23 silly currentTree ├── resolve-from@4.0.0
+23 silly currentTree ├── resolve-url@0.2.1
+23 silly currentTree ├── resolve@1.11.0
+23 silly currentTree ├── ret@0.1.15
+23 silly currentTree ├── safe-regex@1.1.0
+23 silly currentTree ├─┬ set-value@2.0.0
+23 silly currentTree │ └── extend-shallow@2.0.1
+23 silly currentTree ├─┬ snapdragon-node@2.1.1
+23 silly currentTree │ ├── define-property@1.0.0
+23 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+23 silly currentTree │ ├── is-data-descriptor@1.0.0
+23 silly currentTree │ └── is-descriptor@1.0.2
+23 silly currentTree ├─┬ snapdragon-util@3.0.1
+23 silly currentTree │ └── kind-of@3.2.2
+23 silly currentTree ├─┬ snapdragon@0.8.2
+23 silly currentTree │ ├── debug@2.6.9
+23 silly currentTree │ ├── define-property@0.2.5
+23 silly currentTree │ ├── extend-shallow@2.0.1
+23 silly currentTree │ └── ms@2.0.0
+23 silly currentTree ├── source-map-resolve@0.5.2
+23 silly currentTree ├── source-map-url@0.4.0
+23 silly currentTree ├── source-map@0.5.7
+23 silly currentTree ├── split-string@3.1.0
+23 silly currentTree ├─┬ static-extend@0.1.2
+23 silly currentTree │ └── define-property@0.2.5
+23 silly currentTree ├── tarn@1.1.5
+23 silly currentTree ├── tildify@1.2.0
+23 silly currentTree ├─┬ to-object-path@0.3.0
+23 silly currentTree │ └── kind-of@3.2.2
+23 silly currentTree ├── to-regex-range@2.1.1
+23 silly currentTree ├── to-regex@3.0.2
+23 silly currentTree ├── unc-path-regex@0.1.2
+23 silly currentTree ├─┬ union-value@1.0.0
+23 silly currentTree │ ├── extend-shallow@2.0.1
+23 silly currentTree │ └── set-value@0.4.3
+23 silly currentTree ├─┬ unset-value@1.0.0
+23 silly currentTree │ ├─┬ has-value@0.3.1
+23 silly currentTree │ │ └── isobject@2.1.0
+23 silly currentTree │ └── has-values@0.1.4
+23 silly currentTree ├── urix@0.1.0
+23 silly currentTree ├── use@3.1.1
+23 silly currentTree ├── uuid@3.3.2
+23 silly currentTree ├── v8flags@3.1.3
+23 silly currentTree └── which@1.3.1
+24 silly idealTree rillian
+24 silly idealTree ├── @babel/polyfill@7.4.4
+24 silly idealTree ├── @types/bluebird@3.5.27
+24 silly idealTree ├── arr-diff@4.0.0
+24 silly idealTree ├── arr-flatten@1.1.0
+24 silly idealTree ├── arr-union@3.1.0
+24 silly idealTree ├── array-each@1.0.1
+24 silly idealTree ├── array-slice@1.1.0
+24 silly idealTree ├── array-unique@0.3.2
+24 silly idealTree ├── assign-symbols@1.0.0
+24 silly idealTree ├── atob@2.1.2
+24 silly idealTree ├─┬ base@0.11.2
+24 silly idealTree │ ├── define-property@1.0.0
+24 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+24 silly idealTree │ ├── is-data-descriptor@1.0.0
+24 silly idealTree │ └── is-descriptor@1.0.2
+24 silly idealTree ├── bluebird@3.5.5
+24 silly idealTree ├─┬ braces@2.3.2
+24 silly idealTree │ └── extend-shallow@2.0.1
+24 silly idealTree ├── cache-base@1.0.1
+24 silly idealTree ├─┬ class-utils@0.3.6
+24 silly idealTree │ └── define-property@0.2.5
+24 silly idealTree ├── collection-visit@1.0.0
+24 silly idealTree ├── colorette@1.0.7
+24 silly idealTree ├── commander@2.20.0
+24 silly idealTree ├── component-emitter@1.3.0
+24 silly idealTree ├── copy-descriptor@0.1.1
+24 silly idealTree ├── core-js@2.6.9
+24 silly idealTree ├── debug@4.1.1
+24 silly idealTree ├── decode-uri-component@0.2.0
+24 silly idealTree ├─┬ define-property@2.0.2
+24 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+24 silly idealTree │ ├── is-data-descriptor@1.0.0
+24 silly idealTree │ └── is-descriptor@1.0.2
+24 silly idealTree ├── detect-file@1.0.0
+24 silly idealTree ├─┬ expand-brackets@2.1.4
+24 silly idealTree │ ├── debug@2.6.9
+24 silly idealTree │ ├── define-property@0.2.5
+24 silly idealTree │ ├── extend-shallow@2.0.1
+24 silly idealTree │ └── ms@2.0.0
+24 silly idealTree ├── expand-tilde@2.0.2
+24 silly idealTree ├─┬ extend-shallow@3.0.2
+24 silly idealTree │ └── is-extendable@1.0.1
+24 silly idealTree ├── extend@3.0.2
+24 silly idealTree ├─┬ extglob@2.0.4
+24 silly idealTree │ ├── define-property@1.0.0
+24 silly idealTree │ ├── extend-shallow@2.0.1
+24 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+24 silly idealTree │ ├── is-data-descriptor@1.0.0
+24 silly idealTree │ └── is-descriptor@1.0.2
+24 silly idealTree ├─┬ fill-range@4.0.0
+24 silly idealTree │ └── extend-shallow@2.0.1
+24 silly idealTree ├── findup-sync@3.0.0
+24 silly idealTree ├── fined@1.2.0
+24 silly idealTree ├── flagged-respawn@1.0.1
+24 silly idealTree ├── for-in@1.0.2
+24 silly idealTree ├── for-own@1.0.0
+24 silly idealTree ├── fragment-cache@0.2.1
+24 silly idealTree ├── get-value@2.0.6
+24 silly idealTree ├── getopts@2.2.3
+24 silly idealTree ├── global-modules@1.0.0
+24 silly idealTree ├── global-prefix@1.0.2
+24 silly idealTree ├── graphql-import@0.7.1
+24 silly idealTree ├── has-value@1.0.0
+24 silly idealTree ├─┬ has-values@1.0.0
+24 silly idealTree │ └── kind-of@4.0.0
+24 silly idealTree ├── homedir-polyfill@1.0.3
+24 silly idealTree ├── inherits@2.0.3
+24 silly idealTree ├── ini@1.3.5
+24 silly idealTree ├── interpret@1.2.0
+24 silly idealTree ├── is-absolute@1.0.0
+24 silly idealTree ├─┬ is-accessor-descriptor@0.1.6
+24 silly idealTree │ └── kind-of@3.2.2
+24 silly idealTree ├── is-buffer@1.1.6
+24 silly idealTree ├─┬ is-data-descriptor@0.1.4
+24 silly idealTree │ └── kind-of@3.2.2
+24 silly idealTree ├─┬ is-descriptor@0.1.6
+24 silly idealTree │ └── kind-of@5.1.0
+24 silly idealTree ├── is-extendable@0.1.1
+24 silly idealTree ├── is-extglob@2.1.1
+24 silly idealTree ├── is-glob@4.0.1
+24 silly idealTree ├─┬ is-number@3.0.0
+24 silly idealTree │ └── kind-of@3.2.2
+24 silly idealTree ├── is-plain-object@2.0.4
+24 silly idealTree ├── is-relative@1.0.0
+24 silly idealTree ├── is-unc-path@1.0.0
+24 silly idealTree ├── is-windows@1.0.2
+24 silly idealTree ├── isarray@1.0.0
+24 silly idealTree ├── isexe@2.0.0
+24 silly idealTree ├── isobject@3.0.1
+24 silly idealTree ├── kind-of@6.0.2
+24 silly idealTree ├── knex@0.17.0
+24 silly idealTree ├── liftoff@3.1.0
+24 silly idealTree ├── lodash@4.17.11
+24 silly idealTree ├── make-iterator@1.0.1
+24 silly idealTree ├── map-cache@0.2.2
+24 silly idealTree ├── map-visit@1.0.0
+24 silly idealTree ├── micromatch@3.1.10
+24 silly idealTree ├── minimist@0.0.8
+24 silly idealTree ├─┬ mixin-deep@1.3.1
+24 silly idealTree │ └── is-extendable@1.0.1
+24 silly idealTree ├── mkdirp@0.5.1
+24 silly idealTree ├── ms@2.1.1
+24 silly idealTree ├── nanomatch@1.2.13
+24 silly idealTree ├─┬ object-copy@0.1.0
+24 silly idealTree │ ├── define-property@0.2.5
+24 silly idealTree │ └── kind-of@3.2.2
+24 silly idealTree ├── object-visit@1.0.1
+24 silly idealTree ├── object.defaults@1.1.0
+24 silly idealTree ├── object.map@1.0.1
+24 silly idealTree ├── object.pick@1.3.0
+24 silly idealTree ├── os-homedir@1.0.2
+24 silly idealTree ├── parse-filepath@1.0.2
+24 silly idealTree ├── parse-passwd@1.0.0
+24 silly idealTree ├── pascalcase@0.1.1
+24 silly idealTree ├── path-parse@1.0.6
+24 silly idealTree ├── path-root-regex@0.1.2
+24 silly idealTree ├── path-root@0.1.1
+24 silly idealTree ├── pg-connection-string@2.0.0
+24 silly idealTree ├── posix-character-classes@0.1.1
+24 silly idealTree ├── rechoir@0.6.2
+24 silly idealTree ├── regenerator-runtime@0.13.2
+24 silly idealTree ├── regex-not@1.0.2
+24 silly idealTree ├── repeat-element@1.1.3
+24 silly idealTree ├── repeat-string@1.6.1
+24 silly idealTree ├── resolve-dir@1.0.1
+24 silly idealTree ├── resolve-from@4.0.0
+24 silly idealTree ├── resolve-url@0.2.1
+24 silly idealTree ├── resolve@1.11.0
+24 silly idealTree ├── ret@0.1.15
+24 silly idealTree ├── safe-regex@1.1.0
+24 silly idealTree ├─┬ set-value@2.0.0
+24 silly idealTree │ └── extend-shallow@2.0.1
+24 silly idealTree ├─┬ snapdragon-node@2.1.1
+24 silly idealTree │ ├── define-property@1.0.0
+24 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+24 silly idealTree │ ├── is-data-descriptor@1.0.0
+24 silly idealTree │ └── is-descriptor@1.0.2
+24 silly idealTree ├─┬ snapdragon-util@3.0.1
+24 silly idealTree │ └── kind-of@3.2.2
+24 silly idealTree ├─┬ snapdragon@0.8.2
+24 silly idealTree │ ├── debug@2.6.9
+24 silly idealTree │ ├── define-property@0.2.5
+24 silly idealTree │ ├── extend-shallow@2.0.1
+24 silly idealTree │ └── ms@2.0.0
+24 silly idealTree ├── source-map-resolve@0.5.2
+24 silly idealTree ├── source-map-url@0.4.0
+24 silly idealTree ├── source-map@0.5.7
+24 silly idealTree ├── split-string@3.1.0
+24 silly idealTree ├─┬ static-extend@0.1.2
+24 silly idealTree │ └── define-property@0.2.5
+24 silly idealTree ├── tarn@1.1.5
+24 silly idealTree ├── tildify@1.2.0
+24 silly idealTree ├─┬ to-object-path@0.3.0
+24 silly idealTree │ └── kind-of@3.2.2
+24 silly idealTree ├── to-regex-range@2.1.1
+24 silly idealTree ├── to-regex@3.0.2
+24 silly idealTree ├── unc-path-regex@0.1.2
+24 silly idealTree ├─┬ union-value@1.0.0
+24 silly idealTree │ ├── extend-shallow@2.0.1
+24 silly idealTree │ └── set-value@0.4.3
+24 silly idealTree ├─┬ unset-value@1.0.0
+24 silly idealTree │ ├─┬ has-value@0.3.1
+24 silly idealTree │ │ └── isobject@2.1.0
+24 silly idealTree │ └── has-values@0.1.4
+24 silly idealTree ├── urix@0.1.0
+24 silly idealTree ├── use@3.1.1
+24 silly idealTree ├── uuid@3.3.2
+24 silly idealTree ├── v8flags@3.1.3
+24 silly idealTree └── which@1.3.1
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 warn checkPermissions Missing write access to /home/rillian/node_modules
+28 silly rollbackFailedOptional Starting
+29 silly rollbackFailedOptional Finishing
+30 silly runTopLevelLifecycles Starting
+31 silly runTopLevelLifecycles Finishing
+32 silly install printInstalled
+33 warn enoent ENOENT: no such file or directory, open '/home/rillian/package.json'
+34 warn graphql-import@0.7.1 requires a peer of graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 but none was installed.
+35 warn rillian No description
+36 warn rillian No repository field.
+37 warn rillian No README data
+38 warn rillian No license field.
+39 verbose stack Error: EACCES: permission denied, access '/home/rillian/node_modules'
+40 verbose cwd /home/rillian/Documentos/Estudo/Curso-GQP
+41 error Linux 4.15.0-51-generic
+42 error argv "/usr/bin/node" "/usr/bin/npm" "i"
+43 error node v8.10.0
+44 error npm  v3.5.2
+45 error path /home/rillian/node_modules
+46 error code EACCES
+47 error errno -13
+48 error syscall access
+49 error Error: EACCES: permission denied, access '/home/rillian/node_modules'
+49 error  { Error: EACCES: permission denied, access '/home/rillian/node_modules'
+49 error   errno: -13,
+49 error   code: 'EACCES',
+49 error   syscall: 'access',
+49 error   path: '/home/rillian/node_modules' }
+50 error Please try running this command again as root/Administrator.
+51 verbose exit [ -13, true ]
