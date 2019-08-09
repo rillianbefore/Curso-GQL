@@ -5,12 +5,14 @@ const usuarios = [{
     id: 1,
     nome: 'João da Silva',
     email: 'jsilva@email.com',
-    idade: 29
+    idade: 29,
+    perfil_id: 1
 },{
     id: 2,
     nome: 'Manoel da Luz',
     email: 'manoel@email.com',
-    idade: 31
+    idade: 31,
+    perfil_id: 2
 }
 ]
 
@@ -27,6 +29,11 @@ const typeDefs = gql`
     # Nesse caso é possivel criar um scalar. Que nada mais é que um tipo definido pelo usuario
     scalar Date
 
+    type Perfil{
+        id: Int
+        nome: String
+    }
+
     type Usuario {
         id: ID!
         nome: String!  # ! indica que é um atributo obrigatório
@@ -34,6 +41,7 @@ const typeDefs = gql`
         idade: Int
         salario: Float
         vip: Boolean 
+        perfil: Perfil
     }
 
     type Produto {
@@ -42,11 +50,6 @@ const typeDefs = gql`
         preco: Float!
         desconto: Float
         precoComDesconto: Float       
-    }
-
-    type Perfil{
-        id: Int
-        nome: String
     }
 
     # Pontos de entrada da API
@@ -70,6 +73,10 @@ const resolvers = {
     Usuario:{
         salario(usuario){
             return usuario.salario_real
+        },
+        perfil(usuario){
+            const sels = perfis.filter(p => p.id === usuario.id)
+            return sels ? sels[0] : null
         }
     },
     Produto:{
